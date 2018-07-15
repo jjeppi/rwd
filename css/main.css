@@ -34,24 +34,17 @@ nav li{
     background-color: orange;
     padding:.5em .75em;
     border-radius: .25em;
-  }
-
-nav li:link, nav li:visited{
-     background-color: orange;
-     color:black;
-    }
-nav li:hover, nav li:active{
-    background-color: #2db2c4;
-}
-nav li a:hover, nav li a:active{
-    color:white;
-}
-nav li + li{
     margin-left: .5em;
 }
 nav a{
     text-decoration: none;
     color:black;
+}
+nav li a:hover{
+    color:white;
+}
+nav li:hover{
+  background-color: #2db2c4;
 }
 .row{
     display:flex;
